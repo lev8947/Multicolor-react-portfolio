@@ -86,6 +86,8 @@
 .i-bg{
     clip-path: polygon(100% 0, 100% 0%, 100% 100%, 52% 100%, 53% 0);
     background-color: blueviolet;
+    background-image: url(../../img/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg);
+    background-size: contain;
     width: 100%;
     height: 100%;
     position: absolute;

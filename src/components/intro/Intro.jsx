@@ -15,7 +15,7 @@ const Intro = () => {
             <div className="i-title-item">Backend ✓</div>
             <div className="i-title-item">Entrepreneur</div>
             <div className="i-title-item">Philanthropist</div>
-            <div className="i-title-item">Demigod</div>
+            <div className="i-title-item">Fashion Icon</div>
            </div>
           </div>
           <p className="i-desription">
@@ -87,7 +87,7 @@ const Intro = () => {
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        <img src={Me} alt="" className="i-img" />
+        <img src={Me} alt="Simon King" className="i-img" />
       </div>
     </div>
   )
