@@ -22,6 +22,8 @@
     top: 50px;
     left: 50px;
     background-color: blueviolet;
+    background-image: url(../../img/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg);
+    background-size: cover;
 }
 
 .a-card{
@@ -51,6 +53,7 @@
 
 .a-sub{
     margin: 20px 0px;
+    font-weight: bold;
 }
 
 .a-desc{
@@ -72,4 +75,29 @@
     font-weight: bold;
     color:blueviolet;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .a {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .a-left {
+        width: 100%;
+    }
+
+    .a-card {
+        margin-top: 50px;
+        height: 50vh;
+    }
+
+    .a-card.bg, .a-award {
+        display: none;
+    }
+
+    .a-right {
+        padding: 20px;
+    }
 }

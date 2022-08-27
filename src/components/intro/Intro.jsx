@@ -18,15 +18,9 @@ const Intro = () => {
             <div className="i-title-item">Fashion Icon</div>
            </div>
           </div>
-          <p className="i-desription">
-          Wicki-wicki-wild Wicki-wild Wicki-wicki wild wild West Jim West, desperado
-          Rough rider, no you don't want nada None of this, six-gunnin' this, brother runnin' this
-          Buffalo soldier, look, it's like I told ya Any damsel that's in distress
-          Be outta that dress when she meet Jim West Rough neck so go check the law and abide
-          Watch your step or flex and get a hole in your side Swallow your pride, don't let your lip react
-          You don't wanna see my hand where my hip be at With Artemus, from the start of this, runnin' the game
-          James West, tamin' the West, so remember the name
-          </p>
+          <h2 className="i-desc">
+          Full-stack design with dedication to detail and functionality. 
+          </h2>
         </div>
         <svg
           width="75"

@@ -1,5 +1,5 @@
 import "./about.css"
-import Award from "../../img/monsi.jpeg"
+import Award from "../../img/blue.png"
 
 const About = () => {
   return (
@@ -13,22 +13,31 @@ const About = () => {
       <div className="a-right">
       <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          I am all-go at all times, give me a task, or work with me on a project - let's build something 
+          beautiful together. 
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+        Born in a flooding hospital. 
+        Simon King is one of the few known direct decendants 
+        of Skandinavian Viking settler and conqueror Ragnar Lothbrok; 
+        made famous presently by the series 'Vikings'. 
+        Simon King wields the power passed down to him from Odin and Zeus. 
+        He forges webpages and writes code with a hammer and anvil. 
+        Gods new and old gaze from the clouds in disbelief. 
+        A well known prophecy was foretold about a chosen one that 
+        would bring peace to both the worlds of the living and undead. 
+        Simon King doesn't have time for fairytales, so don't hit him up
+        unless you have work. 
         </p>
         <div className="a-award">
-          <img src={Award} alt="" className="a-award-img" />
+          <img src={Award} alt="Blue tree" className="a-award-img"/>
           <div className="a-awards-texts">
-          <h4 className="a-award-title">International Design Awards 2021</h4>
+          <h4 className="a-award-title">Donate to the Blue Tree Project</h4>
             <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+            Our mission is to help spark difficult conversations and encourage people 
+            to speak up when battling mental health concerns. By spreading the paint 
+            and spreading the message that "it’s OK to not be OK", we can help break 
+            down the stigma that’s still largely attached to mental health.
             </p>
           </div>
         </div>

@@ -6,11 +6,10 @@ const ProjectList = () => {
   return (
     <div className="pl">
         <div className="pl-texts">
-        <h1 className="pl-title">Create & inspire. It's Lama</h1>
+        <h1 className="pl-title">Create & inspire.</h1>
         <p className="pl-desc">
-          Lama is a creative portfolio that your work has been waiting for.
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
+          Front & backend made with functionality and impeccable design. Take a tour - 
+          but remember: <h2>anything is possible.</h2>
         </p>
         </div>
         <div className="pl-list">

@@ -30,6 +30,7 @@
 
 .i-name{
     font-size: 60px;
+    color: rgb(67, 13, 117);
 }
 
 .i-title{
@@ -87,10 +88,37 @@
     clip-path: polygon(100% 0, 100% 0%, 100% 100%, 52% 100%, 53% 0);
     background-color: blueviolet;
     background-image: url(../../img/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg);
-    background-size: contain;
+    background-size: cover;
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .i {
+        flex-direction: column;
+    }
+
+    .i-left-wrapper {
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .i-desc {
+        display: none;
+    }
+
+    .i-img {
+        position:inherit;
+    }
+
+    .i-bg {
+        display: none;
+    }
+
 }

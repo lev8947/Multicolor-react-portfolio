@@ -1,6 +1,6 @@
 .p{
     width: 30%;
-    height: 40vh;
+    height: 25vh;
     margin: 20px 10px;
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
@@ -9,9 +9,11 @@
 
 .p-browser{
     height: 20px;
-    background-color: rgb(243, 242, 242);
+    background-color: rgb(67, 13, 117);
     display: flex;
     align-items: center;
+    position: sticky;
+    z-index: 2;
 }
 
 .p-circle{
@@ -24,4 +26,16 @@
 
 .p-img{
     width: 100%;
+    transition: all 15s ease;
+}
+
+.p:hover .p-img {
+    transform: translateY(-100%);
+}
+
+@media screen and (max-width:480px) {
+    .p {
+        width: 40%;
+        height: 20vh;
+    }
 }

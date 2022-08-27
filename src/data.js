@@ -1,32 +1,39 @@
+import IMG1 from "./img/horiseon.png";
+import IMG2 from "./img/enviroHub.png";
+import IMG3 from "./img/bcks.png";
+import IMG4 from "./img/king.png";
+import IMG5 from "./img/workDay.png";
+import IMG6 from "./img/password.png";
+
 export const projects = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/421129/pexels-photo-421129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      link: "https://lev8947.github.io/Technicolor-password-generator/",
+      img: IMG1,
+      link: "https://lev8947.github.io/Horiseon2.0/",
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      link: "https://lev8947.github.io/Technicolor-DreamQuiz/",
+      img: IMG2,
+      link: "https://enviro-hub.herokuapp.com/",
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/3078831/pexels-photo-3078831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      link: "https://lev8947.github.io/Technicolor-Work-Day-Scheduler/",
+      img: IMG3,
+      link: "https://kieranmichaelflynn.github.io/BCKS-Project/",
     },
     {
       id: 4,
-      img: "https://images.pexels.com/photos/1086584/pexels-photo-1086584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      link: "https://lev8947.github.io/Technicolor-weatherApp/",
+      img: IMG4,
+      link: "https://lev8947.github.io/Simon-s-Technicolour-Dreamcoat/",
     },
     {
       id: 5,
-      img: "https://images.pexels.com/photos/1601775/pexels-photo-1601775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      link: "https://technicolor-text-editor.herokuapp.com/",
+      img: IMG5,
+      link: "https://lev8947.github.io/Technicolor-Work-Day-Scheduler/",
     },
     {
       id: 6,
-      img: "https://images.pexels.com/photos/2867164/pexels-photo-2867164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      link: "https://lev8947.github.io/Simon-King-Amazeballs-/",
+      img: IMG6,
+      link: "https://lev8947.github.io/Technicolor-password-generator/",
     },
   ];
