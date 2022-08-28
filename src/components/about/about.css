@@ -58,6 +58,7 @@
 
 .a-desc{
     font-weight: 300;
+    margin-right: 10px;
 }
 
 .a-award{
@@ -67,13 +68,17 @@
     justify-content: space-between;
 }
 
+.a-award-desc{
+    margin-right: 10px;
+}
+
 .a-award-texts{
     width: 70%;
 }
 
 .a-award-title{
     font-weight: bold;
-    color:blueviolet;
+    color:blue;
     margin-bottom: 20px;
 }
 
