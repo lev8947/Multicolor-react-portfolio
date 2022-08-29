@@ -40,8 +40,10 @@ const Contact = () => {
               </a>
             </div>
             <div className="c-info-item">
+            <a href="https://au.linkedin.com/in/simon-levey-61011b231" target="_blank" rel="noreferrer">
               <img className="c-icon" src={Link} alt="" />
               Simon Levey
+              </a>
             </div>
           </div>
         </div>
