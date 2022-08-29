@@ -34,8 +34,10 @@ const Contact = () => {
               Lev_47@hotmail.com
             </div>
             <div className="c-info-item">
+            <a href="https://github.com/lev8947" target="_blank" rel="noreferrer">
               <img className="c-icon" src={Github} alt="" />
               Lev8947
+              </a>
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Link} alt="" />
